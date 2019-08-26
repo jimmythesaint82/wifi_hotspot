@@ -1,0 +1,15 @@
+<html>
+<h3>Please enter the wifi details for the scanner to connect to</h3>
+<form action="/save" method="post">
+<br>
+Ssid:<br>
+<select name="ssid">
+<%ssid[] {<option value='*'>*</option>} /%>
+</select>
+<br>
+Wifi Password:<br>
+<input name="password" type="password">
+<br>
+<input type="submit" value="Submit">
+<form>
+</html>
